@@ -3,18 +3,25 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-			crossorigin="anonymous"
-		/>
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link rel="stylesheet" href="style.css" />
 		<title>Image Carousel</title>
 	</head>
 	<body>
-		<h1>Image Carousel</h1>
+
+		<div class="carousel">
+			<div class="image-container" id="imgs">
+				<img src="https://images.unsplash.com/photo-1618048547205-f9817c2bc779?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIyfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="First">
+				<img src="https://images.unsplash.com/photo-1618048558171-8c9edde77055?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIzfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Second">
+				<img src="https://images.unsplash.com/photo-1527596773609-5f8544271a51?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8RnpvM3p1T0hONnd8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Third">
+				<img src="https://images.unsplash.com/photo-1609607726501-5f6e756a3b6a?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Fourth">
+				<img src="https://images.unsplash.com/photo-1617571736695-5127086fb2af?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDU0fEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Fifth">
+			</div>
+			<div class="buttons-container">
+				<button id="left" class="btn">Prev</button>
+				<button id="right" class="btn">Next</button>
+			</div>
+		</div>
+
 		<script src="script.js"></script>
 	</body>
 </html>
